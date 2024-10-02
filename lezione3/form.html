@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Form</h1>
+    <form>
+        <label for="txtUsername">Inserire username</label>
+        <input type="text" id="txtUsername" name="username" value="testo">
+        <br>
+        <label for="js">Javascript</label>
+        <input id="js" type="radio" name="linguaggio" value="javascript">
+        <label for="css">Css</label>
+        <input id="css" type="radio" name="linguaggio" value="css">
+        <label for="html">Html</label>
+        <input id="html" type="radio" name="linguaggio" value="html">
+        <br>
+        <label for="chkCondizioni">Accetta le condizioni di utilizzo</label>
+        <input type="checkbox" id="chkCondizioni" name="chkCondizioni">
+        <br>
+        <input type="submit" value="Invia">
+        <input type="reset">
+        <input type="button" onclick="alert('HELLO WORLD!')" value="Cliccami!">
+    </form>
+    <h1>LOGIN FORM</h1>
+    <form>
+        <fieldset>
+            <legend>DATI PERSONALI</legend>
+        <label for="username">Username:</label>
+        <br>
+        <input type="text" id="username" name="username">
+        <br>
+        <label for="password">Password:</label>
+        <br>
+        <input type="password" name="password" id="password">
+        <br>
+        <label for="date">Data di nascita:</label>
+        <br>
+        <input type="text" id="username" name="username">
+        <br>
+        <label for="telefono">Telefono</label>
+        <br>
+        <input type="tel" id="telefono" name="telefono" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+        <br>
+        </fieldset>
+        <label for="macchina">Modello Macchina: </label>
+        <select name="modello" id="">
+            <option value="" >Seleziona la marca</option>
+            <option value="bmw">BMW</option>
+            <option value="fiat">Fiat</option>
+            <option value="lancia">Lancia</option>
+        </select>        
+        <br>
+        <button type="submit">Invia</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>

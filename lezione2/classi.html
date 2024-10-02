@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/mystyle.css">
+</head>
+<body>
+    <p class="sfondo" id="par1">1. Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+        Distinctio quia ipsam delectus, libero, itaque deleniti molestiae sint quam eum modi 
+        doloremque eveniet doloribus repellat soluta odit. Molestias aperiam aliquid earum.</p>
+    <p class="grassetto">2. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Sit omnis, ducimus, perspiciatis placeat, incidunt dignissimos deleniti tenetur 
+        unde sequi autem reprehenderit qui assumenda vero in harum iure consequuntur sed iusto?</p>
+    <p class="sfondo grassetto">3. Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+        Unde aut harum modi earum atque ratione maxime velit excepturi veritatis, fugit 
+        voluptas magnam iusto consectetur quaerat totam dolorum maiores explicabo ex. 
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam iusto velit 
+        architecto facilis commodi, tenetur ut ducimus molestiae atque ullam quibusdam, debitis hic. 
+        Iure nisi possimus veniam quisquam suscipit dolores.</p>
+        <script>
+            //JAVASCRIPT
+            //document.getElementById('par1').innerHTML = 'Hello World'
+            var x = document.getElementsByClassName('sfondo')
+            for(var i = 0; i < x.length; i++){
+                x[i].innerHTML = 'Elemento ' + i;
+            }
+        </script>
+</body>
+</html>

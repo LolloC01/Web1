@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Comic Neue", sans-serif;
+}
+
+header {
+  background-color: rgb(177, 177, 234);
+  height: 252px;
+  width: 100%;
+  display: flex;
+  justify-content: center; /* Centra il logo e il testo al centro */
+  align-items: center; /* Allinea verticalmente tutto */
+  position: relative; /* Necessario per posizionare il bottone */
+}
+
+.menu {
+  position: absolute;
+  left: 20px; /* Sposta il bottone a sinistra dell'header */
+  top: 50%;
+  transform: translateY(-50%); /* Centra verticalmente il bottone nell'header */
+}
+
+.menu button {
+  padding: 10px 20px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.menu img{
+  width: 50px;
+  height: 75px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center; /* Allinea l'immagine e il testo verticalmente */
+}
+
+.logo img {
+  max-height: 150px; /* Altezza massima dell'immagine */
+}
+
+.logo-text {
+  margin-left: 10px; /* Spazio tra l'immagine e il testo */
+  color: yellow;
+}
+
+.sidebar{
+  width: 100%;
+  background-color: thistle;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+}
+
+.sidebar-text{
+  padding-inline: 15px;
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar-text{
+    display: none;
+  }
+  
+}

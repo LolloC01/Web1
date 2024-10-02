@@ -1,0 +1,210 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--4: Aggiungi una cornice alla tabella utilizzando l'attributo border.-->
+    <style>
+        table{
+            border: 5px solid rgb(255, 89, 0);
+        }
+        td, th{
+            border: 1px solid black;
+        }
+        th{
+            background-color: brown;
+            color: rgb(255, 255, 0);
+        }
+        .riga{
+            border: 0px;
+            padding: 0px;
+        }
+    </style>
+</head>
+<body>
+    <h3>1: Crea una tabella con 2 righe e 2 colonne. Inserisci del testo nelle celle.</h3>
+    <table>
+        <tr>
+            <td>1_1 cella</td>
+            <td>1_2 cella</td>
+        </tr>
+        <tr>
+            <td>2_1 cella</td>
+            <td>2_2 cella</td>
+        </tr>
+    </table>
+    <br>
+    <hr>
+    <br>
+    <h3>2: Aggiungi un'intestazione di tabella con 3 colonne e inserisci del testo nelle celle dell'intestazione.</h3>
+    <table>
+        <tr>
+            <th>Colonna1</th>
+            <th>Colonna2</th>
+            <th>Colonna3</th>
+        </tr>
+        <tr>
+            <td>riga1</td>
+            <td>r1-c2</td>
+            <td>r1-c3</td>
+        </tr>
+        <tr>
+            <td>riga2</td>
+            <td>r2-c2</td>
+            <td>r2-c3</td>
+        </tr>
+        <tr>
+            <td>riga3</td>
+            <td>r3-c2</td>
+            <td>r3-c3</td>
+        </tr>
+    </table>
+    <br>
+    <hr>
+    <br>
+    <h3>3: Unisci due celle in una riga e inserisci del testo nella cella risultante.</h3>
+    <table>
+        <tr>
+            <td colspan="3">Tre celle unite</td>
+            <td>r1-c4</td>
+        </tr>
+        <tr>
+            <td>r2-c1</td>
+            <td>r2-c2</td>
+            <td>r2-c3</td>
+            <td>r2-c4</td>
+        </tr>
+        <tr>
+            <td>r3-c1</td>
+            <td>r3-c2</td>
+            <td>r3-c3</td>
+            <td>r3-c4</td>
+        </tr>
+        <tr>
+            <td>r4-c1</td>
+            <td>r4-c2</td>
+            <td>r4-c3</td>
+            <td>r4-c4</td>
+        </tr>
+    </table>
+    <br>
+    <hr>
+    <br>
+    <h3>4: Aggiungi una cornice alla tabella utilizzando l'attributo border.</h3>
+    <table style="border: 10px solid green;">
+        <tr>
+            <td>r1-c1</td>
+            <td>r1-c2</td>
+            <td>r1-c3</td>
+            <td>r1-c4</td>
+        </tr>
+        <tr>
+            <td>r2-c1</td>
+            <td>r2-c2</td>
+            <td>r2-c3</td>
+            <td>r2-c4</td>
+        </tr>
+        <tr>
+            <td>r3-c1</td>
+            <td>r3-c2</td>
+            <td>r3-c3</td>
+            <td>r3-c4</td>
+        </tr>
+        <tr>
+            <td>r4-c1</td>
+            <td>r4-c2</td>
+            <td>r4-c3</td>
+            <td>r4-c4</td>
+        </tr>
+    </table>
+    <br>
+    <hr>
+    <br>
+    <h3>5: Aggiungi spaziatura alle celle della tabella utilizzando l'attributo cellpadding.</h3>
+    <table cellpadding="10">
+        <tr>
+            <td>r1-c1</td>
+            <td>r1-c2</td>
+            <td>r1-c3</td>
+            <td>r1-c4</td>
+        </tr>
+        <tr>
+            <td>r2-c1</td>
+            <td>r2-c2</td>
+            <td>r2-c3</td>
+            <td>r2-c4</td>
+        </tr>
+        <tr>
+            <td>r3-c1</td>
+            <td>r3-c2</td>
+            <td>r3-c3</td>
+            <td>r3-c4</td>
+        </tr>
+        <tr>
+            <td>r4-c1</td>
+            <td>r4-c2</td>
+            <td>r4-c3</td>
+            <td>r4-c4</td>
+        </tr>
+    </table>
+    <br>
+    <hr>
+    <br>
+    <h3>6: Aggiungi spaziatura tra le celle della tabella utilizzando l'attributo cellspacing.</h3>
+    <table cellspacing="10">
+        <tr>
+            <td>r1-c1</td>
+            <td>r1-c2</td>
+            <td>r1-c3</td>
+            <td>r1-c4</td>
+        </tr>
+        <tr>
+            <td>r2-c1</td>
+            <td>r2-c2</td>
+            <td>r2-c3</td>
+            <td>r2-c4</td>
+        </tr>
+        <tr>
+            <td>r3-c1</td>
+            <td>r3-c2</td>
+            <td>r3-c3</td>
+            <td>r3-c4</td>
+        </tr>
+        <tr>
+            <td>r4-c1</td>
+            <td>r4-c2</td>
+            <td>r4-c3</td>
+            <td>r4-c4</td>
+        </tr>
+    </table>
+    <br>
+    <hr>
+    <br>
+    <h3>7: Aggiungi una riga di separazione tra le righe della tabella utilizzando l'elemento hr.</h3>
+    <table>
+        <tr>
+            <td>r1-c1</td>
+            <td>r1-c2</td>
+            <td>r1-c3</td>
+            <td>r1-c4</td>
+        </tr>
+        <tr>
+            <td>r2-c1</td>
+            <td>r2-c2</td>
+            <td>r2-c3</td>
+            <td>r2-c4</td>
+        </tr>
+        <tr>
+            <td colspan="4"><hr></td>
+        </tr>
+        <tr>
+            <td>r4-c1</td>
+            <td>r4-c2</td>
+            <td>r4-c3</td>
+            <td>r4-c4</td>
+        </tr>
+    </table>
+</body>
+</html>

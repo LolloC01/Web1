@@ -1,0 +1,22 @@
+.center{
+    color: red;
+}
+p{
+    font-size: 42px;
+}
+p.center{
+    color: yellow;
+}
+body{
+    background-color: fuchsia;
+}
+
+@media screen and (min-width: 400px) {
+    body{
+        background-color: blue;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+		@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+		.colonna {
+            float: left; /* Posiziona le colonne una accanto all'altra */
+            height: 100vh; /* Altezza della colonna uguale all'altezza della finestra */
+        }
+        .colonna-sinistra {
+            background-color: rgb(70, 8, 121);
+			width: 30%; /* Ogni colonna occupa il 50% della larghezza della pagina */
+        }
+        .colonna-destra {
+            background-color: rgb(180, 147, 219);
+			width: 70%; /* Ogni colonna occupa il 50% della larghezza della pagina */
+        }
+		img {
+			height: 300px; /* Mantiene le proporzioni dell'immagine */
+            width: auto;
+			position: absolute;
+			top: 25px;
+			left: 100px;
+        }
+		.img-circle {
+            border-radius: 45%; /* Crea l'effetto circolare */
+            object-fit: cover; /* Mantiene il contenuto centrato e proporzionato */
+        }
+	</style>
+    <title>Hobby</title>
+</head>
+<body style="margin: 0px;" >
+    <div class="colonna colonna-sinistra"></div>
+		<div>
+			<img src="/images/foto_me.jpg" class="img-circle">
+		</div>
+	</div>
+    <div class="colonna colonna-destra" >
+        <div style="background-image: url(/images/header1.jpg); opacity: 50%;">
+            <pre  style="font-family: Comic Neue;">
+                <h1>PALLANUOTO</h1>
+                Ho iniziato a giocare a pallanuoto a 12 anni, per poi smetterea 20.
+                Quando ho smessoo, vista la passione che ho sviluppato per questo sport,
+                ho iniziato a allenare, conseguendo con successo tutti i brevetti che mi erano necessari
+            </pre>
+        </div>
+        <hr>
+        <pre  style="font-family: Comic Neue;">
+            <h1>PIANOFORTE</h1>
+            Fin da piccolo ho preso lezioni di pianoforte.
+            è stata una passione che ho coltivato fino a ora, e che non ho intenzione di abbandonare.
+        </pre>
+    <pre  style="font-family: Comic Neue;">
+            <a href="index.html" target="_parent">HOME</a>
+    </pre>
+    </div>
+</body>
+</html>

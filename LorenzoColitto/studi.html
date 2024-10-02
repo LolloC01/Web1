@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+		@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+		.colonna {
+            float: left; /* Posiziona le colonne una accanto all'altra */
+            height: 100vh; /* Altezza della colonna uguale all'altezza della finestra */
+        }
+        .colonna-sinistra {
+            background-color: rgb(70, 8, 121);
+			width: 30%; /* Ogni colonna occupa il 50% della larghezza della pagina */
+        }
+        .colonna-destra {
+            background-color: rgb(180, 147, 219);
+			width: 70%; /* Ogni colonna occupa il 50% della larghezza della pagina */
+        }
+		img {
+			height: 300px; /* Mantiene le proporzioni dell'immagine */
+            width: auto;
+			position: absolute;
+			top: 25px;
+			left: 100px;
+        }
+		.img-circle {
+            border-radius: 45%; /* Crea l'effetto circolare */
+            object-fit: cover; /* Mantiene il contenuto centrato e proporzionato */
+        }
+	</style>
+    <title>Studi</title>
+</head>
+<body style="margin: 0px;">
+    <div class="colonna colonna-sinistra"></div>
+		<div>
+			<img src="/images/foto_me.jpg" class="img-circle">
+		</div>
+	</div>
+    <div class="colonna colonna-destra">
+        <pre  style="font-family: Comic Neue;">
+            Ho studiato all'Istituto Tecnico Informatico Pacinotti, a Roma,
+            dove ho conseguito con successo (92/100) il diploma da Perito Informatico
+            Lì ho imparato le basi della programmazione, studiando linguaggi come:
+                - C
+                - C++
+                - Java
+            Ho anche studiato sistemi e reti, conseguendo con successo la certificazione CISCO CCNA Routing e Switching
+            Ad ora sto studiando per diventare Cyber Security Specialist, frequentando il corso dell'ITS ICT Academy
+        </pre>
+    <pre  style="font-family: Comic Neue;">
+            <a href="index.html" target="_parent">HOME</a>
+    </pre>
+    </div>
+</body>
+</html>
